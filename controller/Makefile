@@ -1,0 +1,2 @@
+controller: controller.cpp TrafficController.cpp TrafficLight.cpp parser.cpp fileGenerator.cpp
+	g++ -o controller controller.cpp TrafficController.cpp TrafficLight.cpp parser.cpp fileGenerator.cpp -Wall -g -std=c++17
